@@ -1,0 +1,15 @@
+[
+  {
+    "title": "Table view",
+    "submenu": [
+      {
+        "title": "Basic table view",
+        "route": "table-view"
+      },
+      {
+        "title": "Grid view",
+        "route": "grid-view"
+      }
+    ]
+  }
+]

@@ -2,11 +2,15 @@
 
 namespace App\Http\Livewire;
 
+use App\Models\User;
 use Illuminate\Database\Eloquent\Builder;
+use LaravelViews\Facades\UI;
 use LaravelViews\Views\TableView;
 
 class UsersTableView extends TableView
 {
+    protected $paginate = 10;
+
     /**
      * Sets a initial query with the data to fill the table
      *
@@ -14,7 +18,7 @@ class UsersTableView extends TableView
      */
     public function repository(): Builder
     {
-        // return User::query();
+        return User::query();
     }
 
     /**
@@ -24,16 +28,26 @@ class UsersTableView extends TableView
      */
     public function headers(): array
     {
-        return [];
+        return [
+            'ID',
+            'Avatar',
+            'User',
+            'Email'
+        ];
     }
 
     /**
      * Sets the data to every cell of a single row
      *
-     * @param $model Current model for each row
+     * @param $user Current model for each row
      */
-    public function row($model): array
+    public function row(User $user): array
     {
-        return [];
+        return [
+            $user->id,
+            UI::avatar($user->avatar),
+            $user->name,
+            $user->email
+        ];
     }
 }
