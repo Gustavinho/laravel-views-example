@@ -1,0 +1,5 @@
+{
+  "title": "Table view with actions",
+  "subtitle": "Data table with different kind of actions on each row",
+  "component": "users-with-actions"
+}

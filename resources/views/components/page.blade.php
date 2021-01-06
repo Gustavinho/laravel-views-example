@@ -1,6 +1,6 @@
 <x-base>
   <!-- This example requires Tailwind CSS v2.0+ -->
-<div x-data="{ mobileMenu: true }" class="flex max-w-7xl mx-auto">
+<div x-data="{ mobileMenu: false }" class="flex max-w-7xl mx-auto">
   <!-- Off-canvas menu for mobile, show/hide based on off-canvas menu state. -->
   <div x-show="mobileMenu" class="lg:hidden">
     <div class="fixed inset-0 flex z-40">
@@ -41,7 +41,7 @@
           <div class="flex-shrink-0 flex items-center px-4 mb-8">
             <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-logo-indigo-600-mark-gray-900-text.svg" alt="Workflow">
           </div>
-          <x-menu menu="" />
+          <x-menu />
         </div>
       </div>
       <div class="flex-shrink-0 w-14" aria-hidden="true">

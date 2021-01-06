@@ -13,15 +13,10 @@
       {
         "title": "With search and filters",
         "route": "table-view-with-search-and-filters"
-      }
-    ]
-  },
-  {
-    "title": "Grid view",
-    "submenu": [
+      },
       {
-        "title": "Grid view",
-        "route": "grid-view"
+        "title": "With actions",
+        "route": "table-view-with-actions"
       }
     ]
   }
