@@ -1,0 +1,5 @@
+{
+  "title": "Table view",
+  "subtitle": "Basic data table with pagination",
+  "component": "users-with-sort-columns-table-view"
+}

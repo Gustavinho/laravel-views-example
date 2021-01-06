@@ -3,9 +3,22 @@
     "title": "Table view",
     "submenu": [
       {
-        "title": "Basic table view",
+        "title": "Basic",
         "route": "table-view"
       },
+      {
+        "title": "With sort columns",
+        "route": "table-view-with-sort-columns"
+      },
+      {
+        "title": "With search and filters",
+        "route": "table-view-with-search-and-filters"
+      }
+    ]
+  },
+  {
+    "title": "Grid view",
+    "submenu": [
       {
         "title": "Grid view",
         "route": "grid-view"

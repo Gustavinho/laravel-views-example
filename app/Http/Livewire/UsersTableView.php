@@ -32,7 +32,10 @@ class UsersTableView extends TableView
             'ID',
             'Avatar',
             'User',
-            'Email'
+            'Email',
+            'Active',
+            'Type',
+            'Created'
         ];
     }
 
@@ -47,7 +50,10 @@ class UsersTableView extends TableView
             $user->id,
             UI::avatar($user->avatar),
             $user->name,
-            $user->email
+            $user->email,
+            $user->active ? UI::icon('check', 'success') : '',
+            ucfirst($user->type),
+            $user->created_at->diffforHumans()
         ];
     }
 }

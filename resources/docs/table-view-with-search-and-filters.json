@@ -1,0 +1,5 @@
+{
+  "title": "Table view with search and filters",
+  "subtitle": "Data table with search input and filters menu",
+  "component": "users-with-filters-table-view"
+}
