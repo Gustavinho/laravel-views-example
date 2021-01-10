@@ -1,3 +1,10 @@
+@push('meta')
+  <x-social-meta
+    title="{{ $page->title }}"
+    description="{{ $page->subtitle }}"
+  />
+@endpush
+
 <x-page>
   <div class="absolute inset-0 py-6 px-4 sm:px-6 lg:px-8 text-gray-600">
     <h1 class="text-4xl font-extrabold text-gray-900">
