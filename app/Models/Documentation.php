@@ -13,13 +13,25 @@ class Documentation
         $this->fs = $filesystem;
     }
 
-    public function get($page)
+    public function getPage($page)
     {
-        return $this->fs->get(resource_path("docs/{$page}.json"));
+        $pages = $this->getPages();
+        return $pages->$page;
+    }
+
+    public function get($doc)
+    {
+        return json_decode($this->fs->get(resource_path("docs/{$doc}.json")));
     }
 
     public function exists($page): bool
     {
-        return $this->fs->exists(resource_path("docs/{$page}.json"));
+        $pages = $this->getPages();
+        return isset($pages->$page);
+    }
+
+    private function getPages()
+    {
+        return json_decode($this->fs->get(resource_path("docs/pages.json")));
     }
 }

@@ -1,0 +1,43 @@
+{
+  "table-view": {
+    "title": "Table view",
+    "subtitle": "Basic data table with pagination",
+    "component": "users-table-view"
+  },
+
+  "table-view-with-sort-columns": {
+    "title": "Table view with sort columns",
+    "subtitle": "Data table with some sort columns",
+    "component": "users-with-sort-columns-table-view"
+  },
+
+  "table-view-with-search-and-filters": {
+    "title": "Table view with search and filters",
+    "subtitle": "Data table with search input and filters menu",
+    "component": "users-with-filters-table-view"
+  },
+
+  "table-view-with-actions": {
+    "title": "Table view with actions",
+    "subtitle": "Data table with different kind of actions on each row",
+    "component": "users-with-actions"
+  },
+
+  "grid-view": {
+    "title": "Grid view",
+    "subtitle": "Basic data grid with pagination",
+    "component": "users-grid-view"
+  },
+
+  "grid-view-with-search-and-filters": {
+    "title": "Grid view with search and filters",
+    "subtitle": "Data grid with search input and filters menu",
+    "component": "users-with-filters-grid-view"
+  },
+
+  "grid-view-with-actions": {
+    "title": "Grid view with actions",
+    "subtitle": "Data grid with different kind of actions on each row",
+    "component": "users-with-actions-grid-view"
+  }
+}

@@ -26,7 +26,7 @@ class Menu extends Component
      */
     public function render()
     {
-        $menu = json_decode($this->documentation->get('menu'));
+        $menu = $this->documentation->get('menu');
 
         return view('components.menu', [
             'menu' => $menu

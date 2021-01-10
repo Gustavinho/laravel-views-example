@@ -25,7 +25,7 @@ class DocsController extends Controller
             abort(404);
         }
 
-        $page = json_decode($this->documentation->get($page));
+        $page = $this->documentation->getPage($page);
 
         return view('docs', compact('page'));
     }

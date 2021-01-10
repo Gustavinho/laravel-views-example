@@ -1,4 +1,4 @@
-<x-base>
+<x-layout>
   <!-- This example requires Tailwind CSS v2.0+ -->
   <div class="flex max-w-7xl mx-auto">
     <!-- Static sidebar for desktop -->
@@ -24,4 +24,4 @@
     </div>
   </div>
 
-</x-base>
+</x-layout>

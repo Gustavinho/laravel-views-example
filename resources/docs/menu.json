@@ -19,5 +19,22 @@
         "route": "table-view-with-actions"
       }
     ]
+  },
+  {
+    "title": "Grid view",
+    "submenu": [
+      {
+        "title": "Basic",
+        "route": "grid-view"
+      },
+      {
+        "title": "With search and filters",
+        "route": "grid-view-with-search-and-filters"
+      },
+      {
+        "title": "With actions",
+        "route": "grid-view-with-actions"
+      }
+    ]
   }
 ]
