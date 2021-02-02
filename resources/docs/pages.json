@@ -39,5 +39,32 @@
     "title": "Grid view with actions",
     "subtitle": "Data grid with different kind of actions on each row",
     "component": "users-with-actions-grid-view"
+  },
+
+  "list-view": {
+    "title": "List view",
+    "subtitle": "Basic list view with pagination",
+    "component": "list-view.users-list-view"
+  },
+
+  "list-view-with-search-and-filters": {
+    "title": "List view with search and filters",
+    "subtitle": "List view with a search input and filters",
+    "component": "list-view.users-with-filters-list-view"
+  },
+
+  "list-view-with-actions": {
+    "title": "List view with actions",
+    "subtitle": "List view with actions on each row",
+    "component": "list-view.users-with-actions-list-view"
+  },
+
+  "list-view-with-custom-list-item-component": {
+    "title": "List view with a custom list item component",
+    "subtitle": "List view with a custom list item component, this component is just an example, the custom component could be anything",
+    "component": "list-view.users-with-custom-component-list-view",
+    "code": [
+      {"title": "Custom list item component", "file": "/resources/views/components/custom-list-item.blade.php", "language": "html" }
+    ]
   }
 }

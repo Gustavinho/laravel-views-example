@@ -36,5 +36,27 @@
         "route": "grid-view-with-actions"
       }
     ]
+  },
+  {
+    "title": "List view",
+    "beta": "v2.2.0-rc1",
+    "submenu": [
+      {
+        "title": "Basic",
+        "route": "list-view"
+      },
+      {
+        "title": "With search and filters",
+        "route": "list-view-with-search-and-filters"
+      },
+      {
+        "title": "With actions",
+        "route": "list-view-with-actions"
+      },
+      {
+        "title": "Custom list item component",
+        "route": "list-view-with-custom-list-item-component"
+      }
+    ]
   }
 ]
