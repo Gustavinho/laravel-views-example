@@ -20,7 +20,7 @@
       <h3 class="text-xl font-bold text-gray-900">Code example</h1>
       <pre class="language-php rounded-lg text-sm px-8" style="background: #202938">
         <code class="px-8">
-{{ file_get_contents(app_path() . '/Http/Livewire/'.str_replace(['-', '.'], ['', '/'], ucwords($page->component, '-')).'.php') }}
+{{ file_get_contents(app_path() . '/Http/Livewire/'.(collect(explode('.', $page->component)))->map(fn ($path) => str_replace(['-', '.'], ['', '/'], ucwords($path, '-')))->implode('/').'.php') }}
         </code>
       </pre>
 
