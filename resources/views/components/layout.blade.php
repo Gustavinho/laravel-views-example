@@ -53,11 +53,11 @@
         <span class="text-900 font-bold text-xl px-2">Laravel views</span>
       </a>
       <div class="flex items-center">
-        <a href="https://twitter.com/gustavinho88" class="flex items-center justify-center rounded-full p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out h-12 w-12">
+        <a href="https://twitter.com/gustavinho88" class="flex items-center justify-center rounded-full p-1 text-gray-400 hover:text-blue-500 focus:outline-none focus:bg-blue-500 focus:text-white transition duration-150 ease-in-out h-12 w-12">
           <span class="sr-only">Twitter</span>
           <i data-feather="twitter"></i>
         </a>
-        <a href="https://github.com/Gustavinho/laravel-views" class="flex items-center justify-center rounded-full p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out h-12 w-12">
+        <a href="https://github.com/Gustavinho/laravel-views" class="flex items-center justify-center rounded-full p-1 text-gray-400 hover:text-gray-900 focus:outline-none focus:bg-gray-900 focus:text-white transition duration-150 ease-in-out h-12 w-12">
           <span class="sr-only">Github</span>
           <i data-feather="github"></i>
         </a>

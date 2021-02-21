@@ -25,6 +25,6 @@
     </span>
   </div>
 
-  <x-lv::actions :actions="$actions" :item="$model" />
+  <x-lv-actions :actions="$actions" :model="$model" />
 
 </div>

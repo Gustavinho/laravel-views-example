@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e81429d8cc1d68dd0f3f0f7ac2bf8e66",
+    "content-hash": "7ecc94bd8875bd7b21bda65106b11767",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1024,16 +1024,16 @@
         },
         {
             "name": "laravel-views/laravel-views",
-            "version": "v2.2.0-rc1",
+            "version": "v2.2.0-rc3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Gustavinho/laravel-views.git",
-                "reference": "19df671622bc01b5c3e2147962d83ceb9f477298"
+                "reference": "55ac05299956433ea394e6a8891ec8f302ea2f5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Gustavinho/laravel-views/zipball/19df671622bc01b5c3e2147962d83ceb9f477298",
-                "reference": "19df671622bc01b5c3e2147962d83ceb9f477298",
+                "url": "https://api.github.com/repos/Gustavinho/laravel-views/zipball/55ac05299956433ea394e6a8891ec8f302ea2f5b",
+                "reference": "55ac05299956433ea394e6a8891ec8f302ea2f5b",
                 "shasum": ""
             },
             "require": {
@@ -1043,7 +1043,7 @@
                 "laravel/legacy-factories": "^1.1",
                 "orchestra/testbench": "4.*|5.*|6.*",
                 "phpunit/phpunit": "7.0.*|8.5.*|9.5.*",
-                "spatie/laravel-ray": "^1.5"
+                "spatie/laravel-ray": "^1.12"
             },
             "type": "library",
             "extra": {
@@ -1077,9 +1077,9 @@
             "description": "Laravel package to create beautiful common views like tables using only PHP code",
             "support": {
                 "issues": "https://github.com/Gustavinho/laravel-views/issues",
-                "source": "https://github.com/Gustavinho/laravel-views/tree/v2.2.0-rc1"
+                "source": "https://github.com/Gustavinho/laravel-views/tree/v2.2.0-rc3"
             },
-            "time": "2021-02-01T20:56:35+00:00"
+            "time": "2021-02-21T22:44:06+00:00"
         },
         {
             "name": "laravel/framework",

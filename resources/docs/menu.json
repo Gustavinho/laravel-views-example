@@ -39,7 +39,7 @@
   },
   {
     "title": "List view",
-    "beta": "v2.2.0-rc1",
+    "beta": "v2.2.0-rc3",
     "submenu": [
       {
         "title": "Basic",
@@ -56,6 +56,28 @@
       {
         "title": "Custom list item component",
         "route": "list-view-with-custom-list-item-component"
+      }
+    ]
+  },
+  {
+    "title": "Detail view",
+    "beta": "v2.2.0-rc3",
+    "submenu": [
+      {
+        "title": "Basic",
+        "route": "detail-view"
+      },
+      {
+        "title": "With actions",
+        "route": "detail-view-with-actions"
+      },
+      {
+        "title": "With custom attributes list",
+        "route": "detail-view-custom-attributes-list"
+      },
+      {
+        "title": "With multiple components",
+        "route": "detail-view-with-multiple-components"
       }
     ]
   }

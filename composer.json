@@ -14,7 +14,7 @@
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
-        "laravel-views/laravel-views": "2.2.0-rc1",
+        "laravel-views/laravel-views": "2.2.0-rc3",
         "laravel/framework": "^8.12",
         "laravel/tinker": "^2.5",
         "spatie/laravel-ray": "^1.3",
