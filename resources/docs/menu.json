@@ -73,7 +73,7 @@
       },
       {
         "title": "With custom attributes list",
-        "route": "detail-view-custom-attributes-list"
+        "route": "detail-view-with-custom-attributes-list"
       },
       {
         "title": "With multiple components",

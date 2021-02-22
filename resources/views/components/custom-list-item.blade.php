@@ -13,9 +13,9 @@
   </div>
 
   <div class="flex-1 text-right lg:text-left">
-    <span class="inline-flex items-center px-3 py-0.5 rounded-full text-xs font-semibold bg-pink-50 text-pink-500">
+    <x-badge>
       {{ ucfirst($model->type) }}
-    </span>
+    </x-badge>
   </div>
 
   <div class="flex-1 hidden lg:inline">

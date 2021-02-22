@@ -66,5 +66,40 @@
     "code": [
       {"title": "Custom list item component", "file": "/resources/views/components/custom-list-item.blade.php", "language": "html" }
     ]
+  },
+
+  "detail-view": {
+    "title": "Basic detail view",
+    "subtitle": "Basic detail view using the default attributes list",
+    "component": "detail-view.user-detail-view",
+    "model": true
+  },
+
+  "detail-view-with-actions": {
+    "title": "Detail view with actions",
+    "subtitle": "Detail view with actions over the model instance",
+    "component": "detail-view.user-detail-view-with-actions",
+    "model": true
+  },
+
+  "detail-view-with-custom-attributes-list": {
+    "title": "Detail view with custom attributes list",
+    "subtitle": "Detail view without the default attributes list and using a customized attributes list component.",
+    "component": "detail-view.user-detail-view-with-custom-component",
+    "model": true,
+    "code": [
+      {"title": "Custom user detail component", "file": "/resources/views/components/user-detail.blade.php", "language": "html" }
+    ]
+  },
+
+  "detail-view-with-multiple-components": {
+    "title": "Detail view with multiple components",
+    "subtitle": "Detail view using multiple custom components.",
+    "component": "detail-view.user-detail-view-with-multiple-components",
+    "model": true,
+    "code": [
+      {"title": "Example gallery component", "file": "/resources/views/components/gallery.blade.php", "language": "html" },
+      {"title": "Example metrics component", "file": "/resources/views/components/metrics.blade.php", "language": "html" }
+    ]
   }
 }
