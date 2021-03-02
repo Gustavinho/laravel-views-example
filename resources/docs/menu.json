@@ -39,7 +39,7 @@
   },
   {
     "title": "List view",
-    "beta": "v2.2.0-rc3",
+    "new": true,
     "submenu": [
       {
         "title": "Basic",
@@ -61,7 +61,7 @@
   },
   {
     "title": "Detail view",
-    "beta": "v2.2.0-rc3",
+    "new": true,
     "submenu": [
       {
         "title": "Basic",
