@@ -1,4 +1,5 @@
 @push('meta')
+  <title>{{ $page->title ? $page->title . ' - LaravelViews' : config('app.name') }}</title>
   <x-social-meta
     title="{{ $page->title }}"
     description="{{ $page->subtitle }}"
