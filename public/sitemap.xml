@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://laravelviews.com/table-view</loc>
+  <lastmod>2021-04-15T01:54:48+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://laravelviews.com/table-view-with-sort-columns</loc>
+  <lastmod>2021-04-15T01:54:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laravelviews.com/table-view-with-search-and-filters</loc>
+  <lastmod>2021-04-15T01:54:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laravelviews.com/table-view-with-actions</loc>
+  <lastmod>2021-04-15T01:54:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laravelviews.com/grid-view</loc>
+  <lastmod>2021-04-15T01:54:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laravelviews.com/grid-view-with-search-and-filters</loc>
+  <lastmod>2021-04-15T01:54:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laravelviews.com/grid-view-with-actions</loc>
+  <lastmod>2021-04-15T01:54:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laravelviews.com/list-view</loc>
+  <lastmod>2021-04-15T01:54:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laravelviews.com/list-view-with-search-and-filters</loc>
+  <lastmod>2021-04-15T01:54:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laravelviews.com/list-view-with-actions</loc>
+  <lastmod>2021-04-15T01:54:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laravelviews.com/list-view-with-custom-list-item-component</loc>
+  <lastmod>2021-04-15T01:54:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laravelviews.com/detail-view</loc>
+  <lastmod>2021-04-15T01:54:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laravelviews.com/detail-view-with-actions</loc>
+  <lastmod>2021-04-15T01:54:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laravelviews.com/detail-view-with-custom-attributes-list</loc>
+  <lastmod>2021-04-15T01:54:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laravelviews.com/detail-view-with-multiple-components</loc>
+  <lastmod>2021-04-15T01:54:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
