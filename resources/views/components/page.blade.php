@@ -13,7 +13,7 @@
       </div>
     </div>
 
-    <div class="flex flex-col min-w-0 flex-1 lg:ml-64 lg:pl-8">
+    <div class="flex flex-col min-w-0 flex-1 lg:ml-64 bg-gray-200">
       <div class="flex-1 relative z-0 flex">
         <main class="flex-1 relative z-0 focus:outline-none xl:order-last" tabindex="0">
           <!-- Start main area-->

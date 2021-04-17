@@ -1,4 +1,5 @@
-const colors = require('@tailwindcss/ui/colors');
+const colors = require('tailwindcss/colors')
+
 
 module.exports = {
   purge: [
@@ -10,13 +11,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        gray: colors['cool-gray']
+        gray: colors.coolGray,
+        primary: colors.lightBlue
       }
     }
   },
   variants: {},
   plugins: [
-    require('@tailwindcss/ui'),
     require('@tailwindcss/typography'),
   ]
 }
