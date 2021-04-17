@@ -8,7 +8,7 @@
 
 <x-page>
   <div class="absolute inset-0 py-6 px-4 sm:px-6 lg:px-8 text-gray-600">
-    <h1 class="text-4xl font-extrabold text-gray-900">
+    <h1 class="text-2xl lg:text-5xl font-extrabold text-gray-900">
       {{ $page->title }}
     </h1>
     <p>{{ $page->subtitle }}</p>

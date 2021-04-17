@@ -50,16 +50,16 @@
     </div>
     <div class="flex items-center justify-between mx-auto max-w-7xl">
       <a href="/">
-        <span class="text-900 font-bold text-xl px-2">Laravel views</span>
+        <span class="text-900 font-bold text-2xl px-2">Laravel views</span>
       </a>
       <div class="flex items-center">
-        <a href="https://twitter.com/gustavinho88" class="flex items-center justify-center rounded-full p-1 text-gray-400 hover:text-blue-500 focus:outline-none focus:bg-blue-500 focus:text-white transition duration-150 ease-in-out h-12 w-12">
+        <a href="https://twitter.com/gustavinho88" class="flex items-center justify-center rounded-full p-1 h-12 w-12">
           <span class="sr-only">Twitter</span>
-          <i data-feather="twitter"></i>
+          <i data-feather="twitter" class="h-5 w-5 fill-current text-gray-400 hover:text-blue-500 focus:outline-none focus:bg-blue-500 focus:text-white transition duration-150 ease-in-out "></i>
         </a>
-        <a href="https://github.com/Gustavinho/laravel-views" class="flex items-center justify-center rounded-full p-1 text-gray-400 hover:text-gray-900 focus:outline-none focus:bg-gray-900 focus:text-white transition duration-150 ease-in-out h-12 w-12">
+        <a href="https://github.com/Gustavinho/laravel-views" class="flex items-center justify-center rounded-full p-1 h-12 w-12">
           <span class="sr-only">Github</span>
-          <i data-feather="github"></i>
+          <x-fab-github class="h-6 w-6 fill-current text-gray-400 hover:text-gray-900 focus:outline-none focus:bg-gray-900 focus:text-white transition duration-150 ease-in-out "/>
         </a>
         <button @click="mobileMenu = true" type="button" class="lg:hidden -mr-3 h-12 w-12 inline-flex items-center justify-center rounded-md text-gray-500 hover:text-gray-900">
           <span class="sr-only">Open sidebar</span>
