@@ -5,6 +5,11 @@ php artisan migrate --seed
 ```
 
 ### Download user pictures
+Set the environment variable
+```
+FILESYSTEM_DRIVER=public
+```
+
 
 ```bash
 php artisan download:user-pictures
