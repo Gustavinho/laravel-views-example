@@ -28,7 +28,7 @@ class UsersListView extends ListView
     public function data($model)
     {
         return [
-            'avatar' => $model->avatar,
+            'avatar' => asset('storage/' . $model->avatar),
             'title' => $model->name,
             'subtitle' => $model->email,
         ];

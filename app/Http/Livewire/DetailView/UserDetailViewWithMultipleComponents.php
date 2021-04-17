@@ -3,7 +3,6 @@
 namespace App\Http\Livewire\DetailView;
 
 use LaravelViews\Facades\UI;
-use LaravelViews\Views\DetailView;
 
 class UserDetailViewWithMultipleComponents extends UserDetailViewWithActions
 {

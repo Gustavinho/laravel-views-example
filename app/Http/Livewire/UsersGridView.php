@@ -28,7 +28,7 @@ class UsersGridView extends GridView
     public function card($item)
     {
         return [
-            'image' => $item->profile_picture,
+            'image' => asset('storage/' . $item->profile_picture),
             'title' => $item->name,
             'subtitle' => $item->type,
             'description' => $item->email

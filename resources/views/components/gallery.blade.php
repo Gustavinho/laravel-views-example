@@ -5,7 +5,7 @@
   <div class="flex flex-nowrap overflow-x-auto space-x-4">
     @foreach (range(1, 6) as $image)
       <div class="flex-none w-64 h-48 bg-blue-300">
-        <img src="https://i.pravatar.cc/320/?img={{ $image }}" alt="" class="w-full h-full object-cover rounded">
+        <img src="{{ asset('storage/profile/' . $image . '.png') }}" alt="" class="w-full h-full object-cover rounded">
       </div>
     @endforeach
   </div>

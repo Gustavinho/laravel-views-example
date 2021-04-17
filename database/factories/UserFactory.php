@@ -28,8 +28,8 @@ class UserFactory extends Factory
             'email_verified_at' => now(),
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
             'remember_token' => Str::random(10),
-            'avatar' => 'https://i.pravatar.cc/64/?img=' . $this->faker->numberBetween(1, 70),
-            'profile_picture' => 'https://i.pravatar.cc/320/?img=' . $this->faker->numberBetween(1, 70),
+            'avatar' => 'avatar/' . $this->faker->numberBetween(1, 70) . '.png',
+            'profile_picture' => 'profile/' . $this->faker->numberBetween(1, 70) . '.png',
             'type' => $this->faker->randomElement(['admin', 'writer', 'viewer']),
             'active' => $this->faker->randomElement([true, false])
         ];

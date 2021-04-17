@@ -2,8 +2,6 @@
 
 namespace App\Http\Livewire\DetailView;
 
-use LaravelViews\Views\DetailView;
-
 class UserDetailViewWithCustomComponent extends UserDetailViewWithActions
 {
     protected $detailComponent = 'components.user-detail';

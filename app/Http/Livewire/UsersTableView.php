@@ -48,7 +48,7 @@ class UsersTableView extends TableView
     {
         return [
             $user->id,
-            UI::avatar($user->avatar),
+            UI::avatar(asset('storage/' . $user->avatar)),
             $user->name,
             $user->email,
             $user->active ? UI::icon('check', 'success') : '',
