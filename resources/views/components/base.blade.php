@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="{{ asset('/css/prism.css') }}">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-B8S2MSHNE7"></script>
+
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
