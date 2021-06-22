@@ -7,7 +7,7 @@
 @endpush
 
 <x-page>
-  <div class="absolute inset-0 py-6 px-4 sm:px-6 lg:pl-16 lg:pr-0 text-gray-600">
+  <div class="py-6 px-4 sm:px-6 lg:pl-8 lg:pr-0 text-gray-600">
     <h1 class="text-2xl lg:text-5xl font-extrabold text-gray-900">
       {{ $page->title }}
     </h1>

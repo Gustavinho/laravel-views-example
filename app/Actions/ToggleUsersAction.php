@@ -3,13 +3,10 @@
 namespace App\Actions;
 
 use LaravelViews\Actions\Action;
-use LaravelViews\Actions\Confirmable;
 use LaravelViews\Views\View;
 
-class ToggleUserAction extends Action
+class ToggleUsersAction extends Action
 {
-    use Confirmable;
-
     /**
      * Any title you want to be displayed
      * @var String
@@ -20,17 +17,16 @@ class ToggleUserAction extends Action
      * This should be a valid Feather icon string
      * @var String
      */
-    public $icon = "trash";
+    public $icon = "";
 
     /**
      * Execute the action when the user clicked on the button
      *
-     * @param $model Model object of the list where the user has clicked
+     * @param Array $selectedModels Array with all the id of the selected models
      * @param $view Current view where the action was executed from
      */
-    public function handle($model, View $view)
+    public function handle($selectedModels, View $view)
     {
-        $model->update(['active' => !$model->active]);
-        $this->success();
+        // Your code here
     }
 }

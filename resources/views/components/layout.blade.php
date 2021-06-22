@@ -1,5 +1,5 @@
 <x-base>
-  <div x-data="{ mobileMenu: false }" class="border-b border-gray-200 px-4 py-2 fixed top-0 left-0 w-full bg-white z-10">
+  <div x-data="{ mobileMenu: false }" class="border-b border-gray-200 px-4 py-2 sticky top-0 w-full bg-white z-10">
     <!-- Off-canvas menu for mobile, show/hide based on off-canvas menu state. -->
     <div x-show="mobileMenu" class="lg:hidden">
       <div class="fixed inset-0 flex z-40">
@@ -69,7 +69,7 @@
       </div>
     </div>
   </div>
-  <div class="mt-16">
+  <div>
     {{ $slot }}
   </div>
 </x-base>
