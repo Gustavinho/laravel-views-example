@@ -1,6 +1,6 @@
 <x-base>
   <div class="py-0.5 w-full flex justify-center bg-gradient-to-r from-pink-400 to to-primary-500">
-    <span class="text-white font-bold text-sm">
+    <span class="text-white font-medium text-sm">
       Using v2.3.0-rc3
     </span>
   </div>
