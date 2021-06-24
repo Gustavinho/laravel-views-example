@@ -23,6 +23,12 @@
     "component": "users-with-actions"
   },
 
+  "table-view-with-bulk-actions": {
+    "title": "Table view with bulk actions",
+    "subtitle": "Data table with bulk actions selecting items on the current page",
+    "component": "users-with-bulk-actions"
+  },
+
   "grid-view": {
     "title": "Grid view",
     "subtitle": "Basic data grid with pagination",
@@ -41,6 +47,12 @@
     "component": "users-with-actions-grid-view"
   },
 
+  "grid-view-with-bulk-actions": {
+    "title": "Grid view with bulk actions",
+    "subtitle": "Data grid with bulk actions selecting items on the current page",
+    "component": "grid-view.users-with-bulk-actions-grid-view"
+  },
+
   "list-view": {
     "title": "List view",
     "subtitle": "Basic list view with pagination",
@@ -57,6 +69,12 @@
     "title": "List view with actions",
     "subtitle": "List view with actions on each row",
     "component": "list-view.users-with-actions-list-view"
+  },
+
+  "list-view-with-bulk-actions": {
+    "title": "List view with bulk actions",
+    "subtitle": "List view with bulk actions selecting items on the current page",
+    "component": "list-view.users-with-bulk-actions-list-view"
   },
 
   "list-view-with-custom-list-item-component": {

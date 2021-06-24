@@ -24,6 +24,7 @@
             <span class="truncate">
               {{ $submenu->title }}
             </span>
+
           </a>
         @endforeach
       </div>

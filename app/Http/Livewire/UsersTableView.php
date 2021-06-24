@@ -11,12 +11,7 @@ class UsersTableView extends TableView
 {
     protected $paginate = 10;
 
-    /**
-     * Sets a initial query with the data to fill the table
-     *
-     * @return Builder Eloquent query
-     */
-    public function repository(): Builder
+    protected function repository()
     {
         return User::query();
     }

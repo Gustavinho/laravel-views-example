@@ -4,11 +4,12 @@ namespace App\Http\Livewire;
 
 use App\Models\User;
 use Illuminate\Database\Eloquent\Builder;
+use LaravelViews\Facades\UI;
 use LaravelViews\Views\GridView;
 
 class UsersGridView extends GridView
 {
-    public $maxCols = 4;
+    public $maxCols = 3;
 
     /**
      * Sets a initial query with the data to fill the grid view
@@ -30,7 +31,7 @@ class UsersGridView extends GridView
         return [
             'image' => asset('storage/' . $item->profile_picture),
             'title' => $item->name,
-            'subtitle' => $item->type,
+            'subtitle' => ucfirst($item->type),
             'description' => $item->email
         ];
     }

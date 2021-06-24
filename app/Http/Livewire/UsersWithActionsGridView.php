@@ -2,16 +2,17 @@
 
 namespace App\Http\Livewire;
 
+use App\Actions\ChangeUserAsAdmin;
+use App\Actions\ChangeUserAsWriter;
 use App\Actions\ToggleUserAction;
 
 class UsersWithActionsGridView extends UsersWithFiltersGridView
 {
-    public $searchBy = ['name', 'email'];
-
     protected function actionsByRow()
     {
         return [
-            new ToggleUserAction,
+            new ChangeUserAsAdmin,
+            new ChangeUserAsWriter,
             new ToggleUserAction,
         ];
     }

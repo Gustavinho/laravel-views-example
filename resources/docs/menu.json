@@ -17,6 +17,10 @@
       {
         "title": "With actions",
         "route": "table-view-with-actions"
+      },
+      {
+        "title": "With bulk actions",
+        "route": "table-view-with-bulk-actions"
       }
     ]
   },
@@ -34,6 +38,10 @@
       {
         "title": "With actions",
         "route": "grid-view-with-actions"
+      },
+      {
+        "title": "With bulk actions",
+        "route": "grid-view-with-bulk-actions"
       }
     ]
   },
@@ -52,6 +60,10 @@
       {
         "title": "With actions",
         "route": "list-view-with-actions"
+      },
+      {
+        "title": "With bulk actions",
+        "route": "list-view-with-bulk-actions"
       },
       {
         "title": "Custom list item component",
