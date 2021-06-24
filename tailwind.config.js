@@ -12,7 +12,7 @@ module.exports = {
     extend: {
       colors: {
         gray: colors.blueGray,
-        primary: colors.purple
+        primary: colors.purple,
       }
     }
   },

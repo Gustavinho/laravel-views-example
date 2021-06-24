@@ -21,10 +21,9 @@
       <div class="space-y-1" role="group" aria-labelledby="projects-headline">
         @foreach ($item->submenu as $submenu)
           <a href="{{ $submenu->route }}" class="group flex items-center px-3 py-2 text-sm font-medium rounded-md {{ request()->is($submenu->route) ? 'bg-primary-50 text-primary-500' : 'text-gray-500 hover:text-gray-900' }} ">
-            <span class="truncate">
+            <span class="truncate flex-1">
               {{ $submenu->title }}
             </span>
-
           </a>
         @endforeach
       </div>

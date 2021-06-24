@@ -19,6 +19,7 @@
         "route": "table-view-with-actions"
       },
       {
+        "version": "2.3.0-rc4",
         "title": "With bulk actions",
         "route": "table-view-with-bulk-actions"
       }
@@ -40,6 +41,7 @@
         "route": "grid-view-with-actions"
       },
       {
+        "version": "2.3.0-rc4",
         "title": "With bulk actions",
         "route": "grid-view-with-bulk-actions"
       }
@@ -62,6 +64,7 @@
         "route": "list-view-with-actions"
       },
       {
+        "version": "2.3.0-rc4",
         "title": "With bulk actions",
         "route": "list-view-with-bulk-actions"
       },
