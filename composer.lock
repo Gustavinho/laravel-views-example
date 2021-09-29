@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "740a2a453de87cd0c9b6a4e5feba8393",
+    "content-hash": "d45390c3ff2c27ba70bdd3eb8eacc8ed",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1077,16 +1077,16 @@
         },
         {
             "name": "laravel-views/laravel-views",
-            "version": "v2.4.0-rc1",
+            "version": "v2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Gustavinho/laravel-views.git",
-                "reference": "aaf4f634c878951d70cdffae545d79fcada73b1f"
+                "reference": "299412c0ece5d08d0a11012d02a2c9fc04ffaaba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Gustavinho/laravel-views/zipball/aaf4f634c878951d70cdffae545d79fcada73b1f",
-                "reference": "aaf4f634c878951d70cdffae545d79fcada73b1f",
+                "url": "https://api.github.com/repos/Gustavinho/laravel-views/zipball/299412c0ece5d08d0a11012d02a2c9fc04ffaaba",
+                "reference": "299412c0ece5d08d0a11012d02a2c9fc04ffaaba",
                 "shasum": ""
             },
             "require": {
@@ -1133,9 +1133,9 @@
             "description": "Laravel package to create beautiful common views like tables using only PHP code",
             "support": {
                 "issues": "https://github.com/Gustavinho/laravel-views/issues",
-                "source": "https://github.com/Gustavinho/laravel-views/tree/v2.4.0-rc1"
+                "source": "https://github.com/Gustavinho/laravel-views/tree/v2.4.0"
             },
-            "time": "2021-09-29T16:41:44+00:00"
+            "time": "2021-09-29T22:39:10+00:00"
         },
         {
             "name": "laravel/framework",
