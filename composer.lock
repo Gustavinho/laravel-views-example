@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2ae8494e0004290159d98058f7425b06",
+    "content-hash": "740a2a453de87cd0c9b6a4e5feba8393",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1077,23 +1077,26 @@
         },
         {
             "name": "laravel-views/laravel-views",
-            "version": "v2.3.0",
+            "version": "v2.4.0-rc1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Gustavinho/laravel-views.git",
-                "reference": "486bfb4c119d7cdb6e396157baf41d5ee7e47e73"
+                "reference": "aaf4f634c878951d70cdffae545d79fcada73b1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Gustavinho/laravel-views/zipball/486bfb4c119d7cdb6e396157baf41d5ee7e47e73",
-                "reference": "486bfb4c119d7cdb6e396157baf41d5ee7e47e73",
+                "url": "https://api.github.com/repos/Gustavinho/laravel-views/zipball/aaf4f634c878951d70cdffae545d79fcada73b1f",
+                "reference": "aaf4f634c878951d70cdffae545d79fcada73b1f",
                 "shasum": ""
             },
             "require": {
                 "livewire/livewire": "2.*"
             },
             "require-dev": {
+                "brianium/paratest": "^6.3",
                 "laravel/legacy-factories": "^1.1",
+                "nunomaduro/collision": "^5.3",
+                "nunomaduro/larastan": "^0.7.6",
                 "orchestra/testbench": "4.*|5.*|6.*",
                 "phpunit/phpunit": "7.0.*|8.5.*|9.5.*",
                 "spatie/laravel-ray": "^1.12"
@@ -1130,9 +1133,9 @@
             "description": "Laravel package to create beautiful common views like tables using only PHP code",
             "support": {
                 "issues": "https://github.com/Gustavinho/laravel-views/issues",
-                "source": "https://github.com/Gustavinho/laravel-views/tree/v2.3.0"
+                "source": "https://github.com/Gustavinho/laravel-views/tree/v2.4.0-rc1"
             },
-            "time": "2021-06-27T01:38:38+00:00"
+            "time": "2021-09-29T16:41:44+00:00"
         },
         {
             "name": "laravel/framework",
@@ -8265,5 +8268,5 @@
         "php": "^7.3|^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }

@@ -20,7 +20,7 @@ class ToggleUserAction extends Action
      * Any title you want to be displayed
      * @var String
      * */
-    public $title = "Activate/Deactivate";
+    public $title = "Activate / Deactivate";
 
     /**
      * This should be a valid Feather icon string

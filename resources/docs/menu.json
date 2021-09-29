@@ -19,9 +19,13 @@
         "route": "table-view-with-actions"
       },
       {
-        "version": "2.3.0-rc4",
         "title": "With bulk actions",
         "route": "table-view-with-bulk-actions"
+      },
+      {
+        "new": true,
+        "title": "With inline editing",
+        "route": "table-view-with-inline-editing"
       }
     ]
   },
@@ -49,7 +53,6 @@
   },
   {
     "title": "List view",
-    "new": true,
     "submenu": [
       {
         "title": "Basic",
@@ -76,7 +79,6 @@
   },
   {
     "title": "Detail view",
-    "new": true,
     "submenu": [
       {
         "title": "Basic",

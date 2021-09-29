@@ -2,7 +2,7 @@
 
 <div class="flex items-center space-x-4">
   <div class="w-12 h-12 relative">
-    <img src="{{ $model->avatar }}" alt="{{ $model->name }}" class="w-full h-full object-cover rounded">
+    <img src="{{ asset('storage/' . $model->avatar) }}" alt="{{ $model->name }}" class="w-full h-full object-cover rounded">
     @if ($model->active)
       <span class="absolute top-0 right-0 block h-4 w-4 transform -translate-y-1/2 translate-x-1/2 rounded-full bg-green-400 border-2 border-white"></span>
     @endif

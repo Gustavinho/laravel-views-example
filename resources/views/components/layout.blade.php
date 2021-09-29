@@ -1,9 +1,4 @@
 <x-base>
-  <div class="py-0.5 w-full flex justify-center bg-gradient-to-r from-pink-400 to to-primary-500">
-    <span class="text-white font-medium text-sm">
-      Using v2.3.0
-    </span>
-  </div>
   <div x-data="{ mobileMenu: false }" class="border-b border-gray-200 px-4 py-2 sticky top-0 w-full bg-white z-10">
     <!-- Off-canvas menu for mobile, show/hide based on off-canvas menu state. -->
     <div x-show="mobileMenu" class="lg:hidden">

@@ -29,6 +29,12 @@
     "component": "users-with-bulk-actions"
   },
 
+  "table-view-with-inline-editing": {
+    "title": "Table view with inline editing",
+    "subtitle": "Data table inline editing using a text input",
+    "component": "table-view.users-with-inline-editing"
+  },
+
   "grid-view": {
     "title": "Grid view",
     "subtitle": "Basic data grid with pagination",
