@@ -1,7 +1,7 @@
 <nav class="flex-1 space-y-8 bg-white" aria-label="Sidebar">
   <div class="flex items-center pl-3 pr-3 lg:pr-0">
-    <h3 class="flex-1 text-xs font-semibold text-gray-900 tracking-wider">
-      2.4.0-rc0
+    <h3 class="flex-1 font-semibold text-gray-900">
+      {{ env('LARAVEL_VIEWS_VERSION', '') }}
     </h3>
   </div>
   @foreach ($menu as $item)
