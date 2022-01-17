@@ -2,7 +2,7 @@ const colors = require('tailwindcss/colors')
 
 
 module.exports = {
-  purge: [
+  content: [
     './resources/views/**/*.blade.php',
     './resources/css/**/*.css',
     "./vendor/laravel-views/**/*.php",
@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        gray: colors.blueGray,
+        gray: colors.slate,
         primary: colors.purple,
       }
     }
