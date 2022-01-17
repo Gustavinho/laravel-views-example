@@ -12,17 +12,19 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-B8S2MSHNE7"></script>
 
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  @production
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    gtag('config', 'G-B8S2MSHNE7');
-  </script>
+      gtag('config', 'G-B8S2MSHNE7');
+    </script>
+  @endproduction
 </head>
 <body >
   {{ $slot }}
-  @laravelViewsScripts
+  @laravelViewsScripts()
   <script src="{{ asset('/js/prism.js') }}"></script>
 </body>
 </html>
