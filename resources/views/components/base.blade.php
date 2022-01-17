@@ -24,7 +24,8 @@
 </head>
 <body >
   {{ $slot }}
-  @laravelViewsScripts()
+  @laravelViewsScripts(livewire,laravel-views)
+  <script defer src="https://unpkg.com/alpinejs@3.8.1/dist/cdn.min.js"></script>
   <script src="{{ asset('/js/prism.js') }}"></script>
 </body>
 </html>
